@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    border-style:solid;
+    border-width: 5px;
+    border-color: red;
+    border-radius: 10px;
+}
+
+.h-small {
+    display: flex;
+    align-items: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    justify-content: space-between;
+}
+
+.main {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 50px;
+    padding-bottom: 80px;
+}
+
+.shoes {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin-bottom: 100px;
+    gap: 30px;
+    text-align: center;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+    padding-left: 500px;
+    padding-right: 500px;
+    gap: 15px;
+}
+
+.customer {
+    text-align: right;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0px;
+}
+
+.bot-text {
+    width: 650px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.header {
+    background-color: black;
+    color: white;
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
+.header-links {
+    font-size: 18px;
+    justify-content: flex-end;
+}
+
+.main-header {
+    font-size: 48px;
+    margin:0;
+}
+
+.main-text {
+    font-size: 18px;
+    margin:0;
+    margin-bottom: 15px;
+}
+
+.info {
+    font-size: 36px;
+    color: black;
+    text-align: center;
+}
+
+.shoes {
+    font-size: 18px;
+}
+
+.review {
+    font-size: 36px;
+    background-color: rgb(254, 255, 222);
+}
+
+.bottom {
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    margin: 150px 100px 150px 100px;
+    padding: 40px;
+    border-style: double;
+    border-width: 5px;
+    border-radius: 15px;
+    border-color: red;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
